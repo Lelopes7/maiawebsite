@@ -1,29 +1,41 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/sections/Hero";
+import { About } from "@/components/sections/About";
+import { Projects } from "@/components/sections/Projects";
+import { Shop } from "@/components/sections/Shop";
+import { Footer } from "@/components/sections/Footer";
+import { WhatsAppFab } from "@/components/WhatsAppFab";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "MAIA Facens — Machine Learning & AI" },
+      { name: "description", content: "Grupo de pesquisa em Inteligência Artificial da Facens. Projetos, loja oficial e comunidade de estudantes apaixonados por IA." },
+      { property: "og:title", content: "MAIA Facens — Machine Learning & AI" },
+      { property: "og:description", content: "Onde algoritmos encontram propósito. Conheça os projetos, a loja e a comunidade MAIA." },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Shop />
+      </main>
+      <Footer />
+      <WhatsAppFab />
     </div>
   );
 }

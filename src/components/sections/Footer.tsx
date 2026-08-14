@@ -1,6 +1,8 @@
 import { Mail, Phone, MapPin, Instagram, Linkedin, Github } from "lucide-react";
 import logoMaia from "@/assets/logomaia.asset.json";
 import logoFacens from "@/assets/logofacens.asset.json";
+import logoLince from "@/assets/logolince.asset.json";
+
 
 export function Footer() {
   return (
@@ -56,14 +58,24 @@ export function Footer() {
 
         <div>
           <h4 className="font-mono text-xs uppercase tracking-widest text-aqua">Apoio</h4>
-          <div className="mt-4 inline-flex items-center gap-3 p-3 rounded-xl bg-white">
-            <img src={logoFacens.url} alt="Facens" className="h-10 w-10 object-contain" />
-            <div className="text-deep">
-              <div className="font-bold text-sm">Facens</div>
-              <div className="text-xs text-muted-foreground">Centro Universitário</div>
+          <div className="mt-4 flex flex-col gap-3">
+            <div className="inline-flex items-center gap-3 p-3 rounded-xl bg-white">
+              <img src={logoFacens.url} alt="Facens" className="h-10 w-10 object-contain" />
+              <div className="text-deep">
+                <div className="font-bold text-sm">Facens</div>
+                <div className="text-xs text-muted-foreground">Centro Universitário</div>
+              </div>
+            </div>
+            <div className="inline-flex items-center gap-3 p-3 rounded-xl bg-white">
+              <img src={logoLince.url} alt="LINCE" className="h-10 w-10 object-contain" />
+              <div className="text-deep">
+                <div className="font-bold text-sm">LINCE</div>
+                <div className="text-xs text-muted-foreground">Laboratório parceiro</div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
 
       <div className="relative border-t border-white/10">

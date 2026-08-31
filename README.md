@@ -1,6 +1,3 @@
-# maiawebsite
-
-Faça um site com um menu que abre num sanduiche, contendo: sobre o maia, aba de compras tipo uma lojinha com um carrinho para adicionar as compras, e uma aba de projetos, com um carrossel onde aparecem algumas fotos, no rodapé, coloque opções de contato, e no site adicione aquela bolinha com o logo do whattsapp para contato. A paleta de cores deve ser branca, turquesa e verde agua assim como a primeira logo da imagem, e também adicione alguns elementos que remetam a inteligencia artificial, programação
 
 This project was built with [Lovable](https://lovable.dev).
 

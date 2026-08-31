@@ -20,9 +20,8 @@ export const Route = createFileRoute("/contato")({
 });
 
 const channels = [
-  { icon: Instagram, label: "Instagram", value: "@ a definir", href: "#" },
-  { icon: Linkedin, label: "LinkedIn", value: "Perfil a definir", href: "#" },
-  { icon: Mail, label: "E-mail", value: "e-mail a definir", href: "#" },
+  { icon: Instagram, label: "Instagram", value: "@maiafacens", href: "#" },
+  { icon: Mail, label: "E-mail", value: "maia@facens.br", href: "#" },
   { icon: MapPin, label: "Instituição", value: "Facens — Sorocaba, SP", href: "#" },
 ];
 

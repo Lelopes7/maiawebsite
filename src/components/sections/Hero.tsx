@@ -31,11 +31,6 @@ export function Hero() {
             Mobilidade <span className="text-gradient">Aplicada</span> à Inteligência Artificial
           </h1>
 
-          <p className="mt-6 text-lg text-muted-foreground max-w-md">
-            A MAIA é uma equipe universitária dedicada à mobilidade, tecnologia,
-            inteligência artificial, robótica e ao desenvolvimento de soluções inovadoras.
-          </p>
-
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href="#projetos"

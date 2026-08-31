@@ -17,10 +17,12 @@ export function About() {
             <h2 className="mt-3 text-3xl md:text-5xl font-bold text-deep tracking-tight">
               Uma equipe de <span className="text-gradient">engenharia e inovação</span>.
             </h2>
-            <p className="mt-5 text-muted-foreground text-lg">
-              A MAIA é uma equipe voltada à mobilidade, tecnologia, inteligência artificial,
-              robótica e ao desenvolvimento de soluções inovadoras. Reunimos estudantes de
-              diferentes áreas para transformar ideias em projetos reais de engenharia.
+            <p className="mt-5 text-muted-foreground text-lg text-justify">
+              O MAIA é a frente do LINCE dedicada à Inteligência Artificial aplicada à mobilidade.
+              Na equipe, os alunos desenvolvem competências práticas em robótica, visão
+              computacional e programação de sistemas autônomos. O foco é integrar a pesquisa
+              acadêmica ao desenvolvimento de protótipos funcionais, criando veículos e
+              soluções inteligentes para os desafios da locomoção moderna.
             </p>
           </div>
         </Reveal>

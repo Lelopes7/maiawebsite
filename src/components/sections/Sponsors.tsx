@@ -13,7 +13,7 @@ export function Sponsors() {
               <Handshake className="h-4 w-4" /> // patrocinadores
             </p>
             <h2 className="mt-3 text-3xl md:text-5xl font-bold text-deep tracking-tight">
-              Quem <span className="text-gradient">apoia</span> a MAIA.
+              Quem <span className="text-gradient">apoia</span> o MAIA.
             </h2>
             <p className="mt-5 text-muted-foreground text-lg">
               Empresas e instituições que acreditam no nosso trabalho e fazem parte da

@@ -19,8 +19,8 @@ export const Route = createFileRoute("/loja")({
 });
 
 const products = [
-  { id: "camiseta", name: "Camiseta MAIA", note: "Preço a definir" },
-  { id: "adesivo", name: "Adesivo MAIA", note: "Preço a definir" },
+  { id: "camiseta", name: "Camiseta MAIA", note: "R$60,00" },
+  { id: "adesivo", name: "Adesivo MAIA", note: "R$2,00" },
 ];
 
 function LojaPage() {
@@ -33,10 +33,6 @@ function LojaPage() {
             <h1 className="mt-3 text-3xl md:text-5xl font-bold text-deep tracking-tight">
               Produtos <span className="text-gradient">oficiais</span> MAIA.
             </h1>
-            <p className="mt-5 text-muted-foreground text-lg">
-              Nossos produtos estão sendo preparados. Os espaços abaixo receberão imagens,
-              preços e links de compra em breve.
-            </p>
           </div>
         </Reveal>
 

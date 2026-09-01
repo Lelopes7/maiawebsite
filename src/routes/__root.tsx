@@ -11,6 +11,9 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/sections/Footer";
+import { WhatsAppFab } from "@/components/WhatsAppFab";
 
 function NotFoundComponent() {
   return (
@@ -118,8 +121,13 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <Navbar />
+      <main className="min-h-screen">
+        {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+        <Outlet />
+      </main>
+      <Footer />
+      <WhatsAppFab />
     </QueryClientProvider>
   );
 }

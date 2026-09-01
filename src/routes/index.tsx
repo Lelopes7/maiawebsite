@@ -3,6 +3,7 @@ import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
 import { Subsystems } from "@/components/sections/Subsystems";
 import { Projects } from "@/components/sections/Projects";
+import { Sponsors } from "@/components/sections/Sponsors";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -11,7 +12,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Equipe MAIA da Facens: mobilidade, inteligência artificial, robótica e inovação. Conheça nossos subsistemas e projetos.",
+          "Equipe MAIA da Facens: mobilidade, inteligência artificial, robótica e inovação. Conheça nossos subsistemas, projetos e patrocinadores.",
       },
       { property: "og:title", content: "MAIA — Mobilidade Aplicada à Inteligência Artificial" },
       {
@@ -38,6 +39,8 @@ function Index() {
       <About />
       <Subsystems />
       <Projects />
+      <Sponsors />
     </>
   );
 }
+

@@ -51,6 +51,9 @@ export function Footer() {
               <Link to="/" className="hover:text-white">Sobre nós e projetos</Link>
             </li>
             <li>
+              <Link to="/historia" className="hover:text-white">História</Link>
+            </li>
+            <li>
               <Link to="/loja" className="hover:text-white">Loja</Link>
             </li>
             <li>

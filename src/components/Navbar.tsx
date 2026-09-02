@@ -5,6 +5,7 @@ import logoMaia from "@/assets/logomaia.asset.json";
 
 const links = [
   { to: "/", label: "Sobre nós e projetos" },
+  { to: "/historia", label: "História" },
   { to: "/loja", label: "Loja" },
   { to: "/contato", label: "Contato" },
 ] as const;

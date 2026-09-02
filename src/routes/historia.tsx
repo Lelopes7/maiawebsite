@@ -1,3 +1,13 @@
+import { createFileRoute } from '@tanstack/react-router'
+
+export const Route = createFileRoute('/historia')({
+  component: RouteComponent,
+})
+
+function RouteComponent() {
+  return <div>Hello "/historia"!</div>
+}
+
 import { createFileRoute } from "@tanstack/react-router";
 import { ImageIcon, Medal, Plus, Trophy } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
